@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical"
+    tools:context=".fragment.MeFragment">
+
+
+    <TextView
+        style="@style/StyleHead"
+        android:text="我" />
+
+    <TextView style="@style/StyleLine" />
+
+    <RelativeLayout
+        android:id="@+id/tv_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/iv_headphoto"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:src="@mipmap/fall_in_love" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/iv_headphoto"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_me_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@id/iv_headphoto"
+                    android:text="姓名"
+                    android:textColor="#000"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/iv_gender"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@mipmap/female" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_autograph"
+                android:layout_marginTop="28dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:text="格言"
+                android:textColor="#ccc"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="编辑"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_safety"
+            style="@style/StyleText"
+            android:text="安全管理" />
+
+        <TextView style="@style/StyleLine" />
+
+        <TextView
+            android:id="@+id/tv_privacy"
+            style="@style/StyleText"
+            android:text="隐私管理" />
+
+        <TextView style="@style/StyleLine" />
+
+        <TextView
+            android:id="@+id/tv_look_photo"
+            style="@style/StyleText"
+            android:text="图片浏览设置" />
+
+        <TextView style="@style/StyleLine" />
+
+        <TextView
+            android:id="@+id/tv_about"
+            style="@style/StyleText"
+            android:text="关于" />
+
+        <TextView style="@style/StyleLine" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/tv_new"
+            style="@style/StyleText"
+            android:text="新手引导" />
+
+        <TextView style="@style/StyleLine" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/tv_log_off"
+            style="@style/StyleText"
+            android:text="退出登录" />
+
+        <TextView style="@style/StyleLine" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#f0f0f0">
+
+
+        <ImageView
+            android:id="@+id/iv_about_back"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="关于"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <TextView
+        style="@style/StyleLine" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:text="        该应用是为了给广大的大学生打造一处谈恋爱的的平台，
+        我们平台的所有用户都是根据学号进行注册的，
+        这确保了该平台上的所有用户都是大学生，用户信息真是可靠，
+        不会担心被社会上的人欺骗,可放心交友，寻找你你喜欢的另一半。"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:text="        如果你都我们的平台有什么不满意，或者您发现我们的平台有不足
+        的地方，更或者您发现有虚假用户，可以向我们反应。联系qq："
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-8-5"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

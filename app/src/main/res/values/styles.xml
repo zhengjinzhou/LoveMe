@@ -1,0 +1,91 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="contextMenuAnim">
+        <item name="android:windowEnterAnimation">@anim/menu_bottombar_in</item>
+        <item name="android:windowExitAnimation">@anim/menu_bottombar_out</item>
+    </style>
+
+    <!--横线-->
+    <style name="StyleLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#ccc</item>
+    </style>
+
+    <!--文本模版-->
+    <style name="StyleText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">#fff</item>
+    </style>
+
+    <!--文本模版2  all_news-->
+    <style name="StyleText2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:textColor">#838080</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">#fff</item>
+    </style>
+
+    <!--头部分-->
+    <style name="StyleHead">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">#f0f0f0</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--她信息-->
+    <style name="StyleHer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--她的信息->我的标签-->
+    <style name="StyleMyTab">
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:background">@drawable/my_shape</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!--修改密码  完善信息-->
+    <style name="StylePassword">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- details 有关标签类型 -->
+    <style name="StyleTextBtn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:text">还有其他？</item>
+        <item name="android:background">@drawable/my_corners3</item>
+    </style>
+
+</resources>

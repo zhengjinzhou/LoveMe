@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="#ccc"
+    android:layout_height="40dp">
+
+    <TextView
+        android:id="@+id/tv_home"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/home"
+        android:text="首页"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_task"
+        android:layout_weight="1"
+        android:text="任务"
+        android:drawableTop="@mipmap/task"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_me"
+        android:drawableTop="@mipmap/denglu"
+        android:layout_weight="1"
+        android:text="我"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:text="退出后不回删除任何数据，下次登录依然可以使用本账号"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        style="@style/StyleLine" />
+    <TextView
+        android:id="@+id/tv_ensure_log_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出登录"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#e0ff0000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#ece9e9"/>
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+</LinearLayout>

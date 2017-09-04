@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.HerNewsActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#f0f0f0">
+
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/back" />
+
+            <TextView
+                android:id="@+id/tv_it_news"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="她的信息"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:text="进入聊天"
+                android:textColor="#f2bc82"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <TextView style="@style/StyleLine" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_her_photo"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@mipmap/fall_in_love" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@id/iv_her_photo"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    style="@style/StyleHer"
+                    android:text="姓名：" />
+
+                <TextView
+                    android:id="@+id/tv_age"
+                    style="@style/StyleHer"
+                    android:text="年龄：" />
+
+                <TextView
+                    android:id="@+id/tv_constellation"
+                    style="@style/StyleHer"
+                    android:text="星座：" />
+
+                <TextView
+                    android:id="@+id/tv_professional"
+                    style="@style/StyleHer"
+                    android:text="专业：" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            style="@style/StyleLine"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="我的标签"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_my_tab1"
+                    style="@style/StyleMyTab"
+                    android:text="英俊潇洒" />
+
+                <TextView
+                    android:id="@+id/tv_my_tab2"
+                    style="@style/StyleMyTab"
+                    android:text="宅男" />
+
+                <TextView
+                    android:id="@+id/tv_my_tab3"
+                    style="@style/StyleMyTab"
+                    android:text="温柔善良" />
+
+                <TextView
+
+                    android:id="@+id/tv_my_tab4"
+                    style="@style/StyleMyTab"
+                    android:text="腹黑" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_my_tab5"
+                    style="@style/StyleMyTab"
+                    android:text="来自星星的我" />
+
+                <TextView
+                    android:id="@+id/tv_my_tab6"
+                    style="@style/StyleMyTab"
+                    android:text="右手男" />
+
+                <TextView
+                    android:id="@+id/tv_my_tab7"
+                    style="@style/StyleMyTab"
+                    android:text="文艺范" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/StyleLine"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="我喜欢的运动"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_move_tab1"
+                    style="@style/StyleMyTab"
+                    android:text="游泳" />
+
+                <TextView
+                    android:id="@+id/tv_move_tab2"
+                    style="@style/StyleMyTab"
+                    android:text="跑步" />
+
+                <TextView
+                    android:id="@+id/tv_move_tab3"
+                    style="@style/StyleMyTab"
+                    android:text="打篮球" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/StyleLine"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="我喜欢的音乐"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_music_tab1"
+                    style="@style/StyleMyTab"
+                    android:text="游泳" />
+
+                <TextView
+                    android:id="@+id/tv_music_tab2"
+                    style="@style/StyleMyTab"
+                    android:text="跑步" />
+
+                <TextView
+                    android:id="@+id/tv_music_tab3"
+                    style="@style/StyleMyTab"
+                    android:text="打篮球" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/StyleLine"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

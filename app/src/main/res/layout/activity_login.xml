@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:background="#f0f0f0"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="账号登录"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/fall_in_love"
+        />
+
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/et_login_account"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的学号："
+        />
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/et_login_password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的学号所对应的密码："
+        />
+    <Button
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/bt_login_ensure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:text="登录"
+        />
+
+</LinearLayout>
